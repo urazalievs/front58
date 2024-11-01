@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="form">
+        <div>
+            <label for="">Имя :</label>
+            <input type="text">
+        </div>
+        <label for="country">Выбертите страну</label>
+        <select name="country" id="country" onchange="code()">
+            <option value="99">Узбекистан</option>
+            <option value="78">Россия</option>
+            <option value="77">Казахстан</option>
+        </select>
+        <div>
+            <label for="telCode">Код телефона:</label>
+            <input type="text" id="telCode"  value="99">
+        </div>
+        <input type="checkbox" required>
+        <label for="">Подтвердить обработку данных</label>
+        <div><button>Отправить</button></div>
+    </form>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
